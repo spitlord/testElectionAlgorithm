@@ -53,11 +53,9 @@ public class Main {
 
         regionGrowing.run();
         
-        // works
+        
         System.out.println(objectiveFunction.calcCompPP(s.getDistrict(1)));
-        // works
         System.out.println(objectiveFunction.calcCompReock(s.getDistrict(1)));
-        // works
         System.out.println(objectiveFunction.calcCompSchwartz(s.getDistrict(1)));
         
         
